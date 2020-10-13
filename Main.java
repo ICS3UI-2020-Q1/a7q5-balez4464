@@ -10,7 +10,7 @@ public class Main {
     if(number < 0){
       number = number * (-1);
     }
-    //for loop for dividing by ten until the last digit
+    //for loop for dividing by ten until the first digit
     for(int i = number; number > 9; i++){
       //divides number by 10
       number = number / 10;
@@ -30,7 +30,7 @@ public class Main {
   public static void main(String[] args) {
     // calls the method
     int answer = firstDigit(3572);
-    //prints the last digit
+    //prints the first digit
     System.out.println(answer);
   
   }
